@@ -34,3 +34,19 @@ Then, when you finally install it, clone the repo like this:
 ```bash
 git clone https://github.com/Charllcrot/MinosPlus.git
 ```
+Next install node
+```bash
+curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
+sudo apt install nodejs
+```
+
+Finally you make permision to the interpreter with
+```bash
+chmod +x MinosPlus.js
+```
+You've got it! You can now make programs in MinosPlus.
+
+To execute a program you can do:
+```bash
+./MinosPlus.js '++--*'
+```
