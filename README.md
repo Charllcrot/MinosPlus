@@ -8,3 +8,29 @@ If you want to check the Symbology there is a full documentation of the full syn
 
 # How to install
 
+First you will have to clone it with Git,\ if it isn't installed you should do it by 
+
+
+// debian, ubuntu, mint
+```bash
+sudo apt update
+sudo apt install git
+```
+
+// Fedora
+```bash
+sudo dnf install git
+```
+// Arch, Manjaro
+```bash
+sudo pacman -S git
+```
+// MacOs
+```bash
+brew install git
+```
+
+Then, when you finally install it, clone the repo like this:
+```bash
+git clone https://github.com/Charllcrot/MinosPlus.git
+```
