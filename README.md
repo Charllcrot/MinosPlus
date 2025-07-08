@@ -40,13 +40,13 @@ curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
 sudo apt install nodejs
 ```
 
-Finally you make permision to the interpreter with
+ Then you make permision to the interpreter with
 ```bash
 chmod +x MinosPlus.js
 ```
-You've got it! You can now make programs in MinosPlus.
-
-To execute a program you can do:
+Finally make it a global comand
 ```bash
-./MinosPlus.js '++--*'
+npm install -g
 ```
+There you have it!
+
