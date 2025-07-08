@@ -8,7 +8,9 @@ If you want to check the Symbology there is a full documentation of the full syn
 
 # How to install
 
-First you will have to clone it with Git,\ if it isn't installed you should do it by 
+First you will have to clone it with Git,
+
+if it isn't installed you should do it by 
 
 
 // debian, ubuntu, mint
@@ -50,3 +52,9 @@ npm install -g
 ```
 There you have it!
 
+Now you can do
+```bash
+minosplus '++--*'
+```
+
+And it will work
