@@ -1,4 +1,4 @@
-
+#!/usr/bin/env node
 
 function Contar(str){
     let mas = 0;
@@ -84,7 +84,13 @@ function Contar(str){
     return null;
   }
   
-  
-  let a = Contar('++--/@++--*');
-  console.log(a);
-  
+  if (require.main === module) {
+    const input = process.argv[2];
+    if (!input) {
+        console.error("Ussage: minosplus '<código>'");
+        process.exit(1);
+    }
+
+    const result = Contar(input);
+    console.log(result);
+}
