@@ -1,0 +1,16 @@
+{
+  "name": "minosplus",
+  "version": "1.0.0",
+  "description": "A minimalist symbolic programming language with two counters.",
+  "main": "MinosPlus.js",
+  "bin": {
+    "minosplus": "./MinosPlus.js"
+  },
+  "scripts": {
+    "start": "node MinosPlus.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["esolang", "interpreter", "language", "experimental", "minimal"],
+  "author": "Charllcrot",
+  "license": "CC0-1.0"
+}
