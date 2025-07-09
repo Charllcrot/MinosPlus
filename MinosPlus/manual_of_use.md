@@ -1,8 +1,5 @@
 # The MinosPlus Programing Language
-         __
- |\  /| |  \
- | \/ | |__/
- |    | |
+![MinosPlusLogo](https://github.com/user-attachments/assets/b4ad7ca4-3af0-48a9-a5e0-30d480e0bd13)|
 ## Syntax and Symbology
 
 |Simbol|Mathematical|
