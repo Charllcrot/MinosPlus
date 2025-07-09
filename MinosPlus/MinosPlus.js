@@ -1,4 +1,8 @@
 #!/usr/bin/env node
+const fs = require('fs');
+const path = require('path');
+
+
 
 function Contar(str){
     let mas = 0;
@@ -82,15 +86,28 @@ function Contar(str){
     
     console.warn("Error: No matching end");
     return null;
+}
+function readFileAndProcess(filePath) {
+    if (path.extname(filePath) !== '.mp') {
+      console.error("Error: Only .mp files are supported");
+      return null;
+    }
+
+    try {
+      const fileContent = fs.readFileSync(filePath, 'utf8');
+      return Contar(fileContent);
+    } catch (error) {
+      console.error(`Error reading file: ${error.message}`);
+      return null;
+    }
   }
-  
-  if (require.main === module) {
+if (require.main === module) {
     const input = process.argv[2];
     if (!input) {
         console.error("Ussage: minosplus '<código>'");
         process.exit(1);
     }
 
-    const result = Contar(input);
+    const result = readFileAndProcess(process.argv[2]);
     console.log(result);
 }
