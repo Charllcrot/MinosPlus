@@ -60,3 +60,5 @@ minosplus '++--*'
 And it will work
 
 **Check the manual of use for the Syntax**
+
+Now you can make **MinosPlus archive with the sufix .mp**!!!
