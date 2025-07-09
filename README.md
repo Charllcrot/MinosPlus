@@ -58,3 +58,5 @@ minosplus '++--*'
 ```
 
 And it will work
+
+**Check the manual of use for the Syntax**
