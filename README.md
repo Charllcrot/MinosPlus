@@ -1,64 +1,87 @@
-## MinosPlus -- 2025
-![MinosPlusLogo](https://github.com/user-attachments/assets/d14ee7a2-9863-4303-8781-a00bb5f91caa)
+MinosPlus — 2025
 
+MinosPlus is an Esoteric Programming Language (Esolang) created in 2025.
+It all started as a simple Kata challenge: “Count how many + and - appear in a string using JavaScript”. From that idea, the project quickly grew into a fully working esolang — because, let’s be honest, these kinds of projects are fun and (relatively) easy to make.
 
-MinosPlus is a **Esoteric Programing Languge** or better known as Esolang. Developed on this 2025, the languaje comes when the creator makes himself a Kata that propouse to count how many + and - there are in a String on JavaScript. The proyect growed quikly because this types of projects are kinda easy to make.\
-If you want to check the Symbology there is a full documentation of the full syntax
+If you want to dive into the syntax and symbols, check out the full documentation
+ (coming soon 👀).
 
+🔧 Installation
+1. Install Git
 
-# How to install
+If you don’t have Git installed yet:
 
-First you will have to clone it with Git,
+Debian / Ubuntu / Mint
 
-if it isn't installed you should do it by 
-
-
-// debian, ubuntu, mint
-```bash
 sudo apt update
 sudo apt install git
-```
 
-// Fedora
-```bash
+
+Fedora
+
 sudo dnf install git
-```
-// Arch, Manjaro
-```bash
+
+
+Arch / Manjaro
+
 sudo pacman -S git
-```
-// MacOs
-```bash
+
+
+macOS
+
 brew install git
-```
 
-Then, when you finally install it, clone the repo like this:
-```bash
+
+(On Windows, install Git for Windows
+)
+
+2. Clone the Repository
 git clone https://github.com/Charllcrot/MinosPlus.git
-```
-Next install node
-```bash
-curl -fsSL https://deb.nodesource.com/setup_lts.x || sudo -E bash -
+cd MinosPlus
+
+3. Install Node.js
+
+If you don’t already have Node.js:
+
+Linux (Debian-based)
+
+curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
 sudo apt install nodejs
-```
 
- Then you make permision to the interpreter with
-```bash
+
+On other systems, download the installer from nodejs.org
+.
+
+4. Make the Interpreter Executable
 chmod +x MinosPlus.js
-```
-Finally make it a global comand
-```bash
+
+5. Install Globally
 npm install -g
-```
-There you have it!
 
-Now you can do
-```bash
+
+Done! 🎉
+
+▶️ Usage
+
+Now you can run MinosPlus directly from your terminal:
+
 minosplus '++--*'
-```
 
-And it will work
 
-**Check the manual of use for the Syntax**
+Example output:
 
-Now you can make **MinosPlus archive with the sufix .mp**!!!
+$ minosplus '++--*'
+Result: 0
+
+
+You can also write MinosPlus code in a file with the .mp suffix:
+
+minosplus program.mp
+
+📜 Syntax
+
+Check the syntax manual
+ for the full symbol list and examples.
+(Spoiler: expect plenty of +, -, and other strange symbols 👾)
+
+💡 That’s it! You’re ready to start experimenting with MinosPlus and writing the most questionable esolang programs ever.
